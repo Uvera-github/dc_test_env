@@ -47,7 +47,8 @@
         "plateNumber": "Plate Number",
         "history": "History",
         "viewHistory": "View History",
-        "update": "Update"
+        "update": "Update",
+        "emptyTrucks":"Organization has no trucks yet."
     },
     "help": {
         "help": "Help & Support"

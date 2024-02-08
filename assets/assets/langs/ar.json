@@ -48,7 +48,9 @@
         "plateNumber": "رقم الشاحنة",
         "history": "التاريخ",
         "viewHistory": "عرض التاريخ",
-        "update": "تحديث"
+        "update": "تحديث",
+        "emptyTrucks":"لا يوجد شاحنات "
+
     },
     "help": {
         "help": "الدعم والمساعدة"
