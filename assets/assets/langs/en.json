@@ -1,0 +1,87 @@
+{
+    "drawer": {
+        "stock": "Stock",
+        "trucks": "Trucks",
+        "tools": "Tools",
+        "analytics": "Analytics",
+        "settings": "Settings",
+        "call": "Contact",
+        "export": "Export",
+        "quickSearchItem": "Quick search by item",
+        "quickSearch": "Search",
+        "quickSearchstatus": "Quick search by plate number",
+        "help": "Help & Support",
+        "lastUpdate":"Last update",
+        "minutesAgo":"minutes ago",
+        "secondsAgo":"seconds ago",
+
+        "actions":"Actions",
+        "logout":"Logout",
+        "helpText":"We are committed to continuously improving our software and services to meet your needs better.\nYour feedback is crucial to us, so please don't hesitate to share your thoughts or suggestions on how\nwe can enhance your experience with our Food WMS.\nThank you for choosing us as your partner in warehouse management.\nWe look forward to helping you succeed and making your food distribution process smoother,\nmore efficient, and more rewarding.\n\nPhone Support: For urgent matters or more complex issues, don't hesitate to call our support hotline at (055) 226-2295.\nOur support representatives are ready to offer real-time assistance.\n\n"
+    },
+    "login": {
+        "loginTitle": "Welcome",
+        "seeYourGrowth": "See your growth and get supported!",
+        "email": "Email",
+        "enterEmail": "Enter your email",
+        "enterPassword": "Minumum 8 charachters",
+        "password": "Password",
+        "signIn":"Sign in"
+    },
+    "stock": {
+        "stockTitle": "Stock Monitoring",
+        "item": "Item",
+        "status": "Status",
+        "weight": "Weight",
+        "recivingDate": "Reciving Date / Time",
+        "expDate": "Expiration Date / Time",
+        "kg": "kg",
+        "noMatchData":"No matching data found",
+        "emptyStock":"No products in stock currently"
+    },
+    "trucks": {
+        "trucksTitle": "Trucks Monitoring",
+        "id": "ID",
+        "arrivalDate": "Arrival Date / Time",
+        "status": "Status",
+        "plateNumber": "Plate Number",
+        "history": "History",
+        "viewHistory": "View History",
+        "update": "Update"
+    },
+    "help": {
+        "help": "Help & Support"
+    },
+    "truckDetails": {
+        "title": "Truck Details",
+        "item": "Item",
+        "weight": "Weight",
+        "date": "Scale Date And Time",
+        "expDate": "Expiration Date And Time",
+        "speed": "Speed",
+        "pressure": "Pressure",
+        "tempreature": "Tempreature",
+        "humidity": "Humidity",
+        "currentShipment": "Current Shipment",
+        "shippedFrom":"Shipped From",
+        "shippedTo":"Shipped To",
+        "emptyTruck":"This truck has no bags"
+    },
+    "routeHistory": {
+        "title": "Route History",
+        "item": "Item",
+        "weight": "Weight",
+        "date": "Date",
+        "destination": "Destination",
+        "time": "Time",
+        "truckId": "Truck ID"
+    },
+    "truckDestination": {
+        "plateNumber": "Plate Number",
+        "driverName": "Drvier Name",
+        "destinationAddress": "Destination Address",
+        "notClear": "The provided address is not clear",
+        "setDestination":"Set Destination"
+
+    }
+}
