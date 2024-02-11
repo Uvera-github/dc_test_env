@@ -17,8 +17,7 @@
 
         "actions":"Actions",
         "logout":"Logout",
-        "helpText":"We are committed to continuously improving our software and services to meet your needs better.\nYour feedback is crucial to us, so please don't hesitate to share your thoughts or suggestions on how\nwe can enhance your experience with our Food WMS.\nThank you for choosing us as your partner in warehouse management.\nWe look forward to helping you succeed and making your food distribution process smoother,\nmore efficient, and more rewarding.\n\nPhone Support: For urgent matters or more complex issues, don't hesitate to call our support hotline at (055) 226-2295.\nOur support representatives are ready to offer real-time assistance.\n\n"
-    },
+        "helpText":"We are committed to continuously improving our software and services to meet your needs better.\nYour feedback is crucial to us, so please don't hesitate to share your thoughts or suggestions on how\nwe can enhance your experience with our Food WMS.\nThank you for choosing us as your partner in warehouse management.\nWe look forward to helping you succeed and making your food distribution process smoother,\nmore efficient, and more rewarding.\n\n"    },
     "login": {
         "loginTitle": "Welcome",
         "seeYourGrowth": "See your growth and get supported!",
@@ -48,7 +47,8 @@
         "history": "History",
         "viewHistory": "View History",
         "update": "Update",
-        "emptyTrucks":"Organization has no trucks yet."
+        "emptyTrucks":"Organization has no trucks yet.",
+        "fromTo":"From / To"
     },
     "help": {
         "help": "Help & Support"
