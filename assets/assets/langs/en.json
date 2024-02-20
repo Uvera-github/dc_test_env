@@ -16,7 +16,6 @@
         "secondsAgo":"seconds ago",
         "truckDetailsError":"Only on-way trucks can view details",
         "truckEditError":"Only garaged trucks can be edited",
-
         "actions":"Actions",
         "logout":"Logout",
         "helpText":"We are committed to continuously improving our software and services to meet your needs better.\nYour feedback is crucial to us, so please don't hesitate to share your thoughts or suggestions on how\nwe can enhance your experience with our Food WMS.\nThank you for choosing us as your partner in warehouse management.\nWe look forward to helping you succeed and making your food distribution process smoother,\nmore efficient, and more rewarding.\n\n"    },
@@ -50,7 +49,8 @@
         "viewHistory": "View History",
         "update": "Update",
         "emptyTrucks":"Organization has no trucks yet.",
-        "fromTo":"From / To"
+        "fromTo":"From / To",
+        "edit":"Edit"
     },
     "help": {
         "help": "Help & Support"
@@ -68,7 +68,9 @@
         "currentShipment": "Current Shipment",
         "shippedFrom":"Shipped From",
         "shippedTo":"Shipped To",
-        "emptyTruck":"This truck has no bags"
+        "emptyTruck":"This truck has no bags",
+        "kmh":"Km/h",
+        "psi":"Psi"
     },
     "routeHistory": {
         "title": "Route History",

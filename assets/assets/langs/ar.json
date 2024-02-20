@@ -6,7 +6,6 @@
         "analytics": "تحليل البيانات",
         "settings": "الإعدادات",
         "export": "تحميل",
-
         "call": "الاتصال",
         "quickSearchItem": "البحث السريع باسم المنتج",
         "quickSearch": "البحث",
@@ -14,6 +13,8 @@
          "help": "الدعم والمساعدة",
         "lastUpdate":"اخر تحديث",
         "minutesAgo":"دقائق",
+        "truckDetailsError":"لا يمكن عرض التفاصيل الا للشاحنات التى علي الطريق",
+        "truckEditError":"لا يمكن تعديل الشاحنات الا التي في الجراج",
         "secondsAgo":"ثواني",
         "actions":"اجراءات",
         "logout":"تسجيل خروج",
@@ -50,7 +51,9 @@
         "viewHistory": "عرض التاريخ",
         "update": "تحديث",
         "emptyTrucks":"لا يوجد شاحنات ",
-        "fromTo":"من / إلى"
+        "fromTo":"من / إلى",
+        "edit":"تعديل"
+
 
 
     },
@@ -70,7 +73,9 @@
         "currentShipment": "الشحنة الحالية",
         "shippedFrom":"الشحن من",
         "shippedTo":"الشحن إلى",
-        "emptyTruck":"الشحنة لا تحمل اي حقائب"
+        "emptyTruck":"الشحنة لا تحمل اي حقائب",
+        "kmh":"كم/س",
+        "psi":"باسكال"
 
 
     },
