@@ -11,14 +11,15 @@
         "quickSearch": "Search",
         "quickSearchstatus": "Quick search by plate number",
         "help": "Help & Support",
-        "lastUpdate":"Last update",
-        "minutesAgo":"minutes ago",
-        "secondsAgo":"seconds ago",
-        "truckDetailsError":"Only on-way trucks can view details",
-        "truckEditError":"Only garaged trucks can be edited",
-        "actions":"Actions",
-        "logout":"Logout",
-        "helpText":"We are committed to continuously improving our software and services to meet your needs better.\nYour feedback is crucial to us, so please don't hesitate to share your thoughts or suggestions on how\nwe can enhance your experience with our Food WMS.\nThank you for choosing us as your partner in warehouse management.\nWe look forward to helping you succeed and making your food distribution process smoother,\nmore efficient, and more rewarding.\n\n"    },
+        "lastUpdate": "Last update",
+        "minutesAgo": "minutes ago",
+        "secondsAgo": "seconds ago",
+        "truckDetailsError": "Only on-way trucks can view details",
+        "truckEditError": "Only garaged trucks can be edited",
+        "actions": "Actions",
+        "logout": "Logout",
+        "helpText": "We are committed to continuously improving our software and services to meet your needs better.\nYour feedback is crucial to us, so please don't hesitate to share your thoughts or suggestions on how\nwe can enhance your experience with our Food WMS.\nThank you for choosing us as your partner in warehouse management.\nWe look forward to helping you succeed and making your food distribution process smoother,\nmore efficient, and more rewarding.\n\n"
+    },
     "login": {
         "loginTitle": "Welcome",
         "seeYourGrowth": "See your growth and get supported!",
@@ -26,7 +27,7 @@
         "enterEmail": "Enter your email",
         "enterPassword": "Minumum 8 charachters",
         "password": "Password",
-        "signIn":"Sign in"
+        "signIn": "Sign in"
     },
     "stock": {
         "stockTitle": "Stock Monitoring",
@@ -36,8 +37,8 @@
         "recivingDate": "Reciving Date / Time",
         "expDate": "Expiration Date / Time",
         "kg": "kg",
-        "noMatchData":"No matching data found",
-        "emptyStock":"No products in stock currently"
+        "noMatchData": "No matching data found",
+        "emptyStock": "No products in stock currently"
     },
     "trucks": {
         "trucksTitle": "Trucks Monitoring",
@@ -48,9 +49,9 @@
         "history": "History",
         "viewHistory": "View History",
         "update": "Update",
-        "emptyTrucks":"Organization has no trucks yet.",
-        "fromTo":"From / To",
-        "edit":"Edit"
+        "emptyTrucks": "Organization has no trucks yet.",
+        "fromTo": "From / To",
+        "edit": "Edit"
     },
     "help": {
         "help": "Help & Support"
@@ -66,11 +67,11 @@
         "tempreature": "Tempreature",
         "humidity": "Humidity",
         "currentShipment": "Current Shipment",
-        "shippedFrom":"Shipped From",
-        "shippedTo":"Shipped To",
-        "emptyTruck":"This truck has no bags",
-        "kmh":"Km/h",
-        "psi":"Psi"
+        "shippedFrom": "Shipped From",
+        "shippedTo": "Shipped To",
+        "emptyTruck": "This truck has no bags",
+        "kmh": "Km/h",
+        "psi": "Psi"
     },
     "routeHistory": {
         "title": "Route History",
@@ -86,7 +87,11 @@
         "driverName": "Drvier Name",
         "destinationAddress": "Destination Address",
         "notClear": "The provided address is not clear",
-        "setDestination":"Set Destination"
-
+        "setDestination": "Set Destination"
+    },
+    "TruckList":{
+        "truckDetails":"Truck Details",
+        "edit":"Edit",
+        "history":"History"
     }
 }
