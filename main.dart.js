@@ -48695,7 +48695,7 @@ h=t.N
 g=t.z
 f=A.rU(A.K(["Content-type","application/json","Accept","application/json"],h,g),new A.aCk())
 s=7
-return A.S(n.f.xK(0,"https://test-api.foodline.uvera.co/auth/login",null,A.K(["email",a0,"password",a1,"type","ditribution-center"],h,h),null,null,A.aLI("POST",f),null,g),$async$rY)
+return A.S(n.f.xK(0,"https://test-api.foodline.uvera.co/auth/login",null,A.K(["email",a0,"password",a1],h,h),null,null,A.aLI("POST",f),null,g),$async$rY)
 case 7:m=a3
 J.aE(m.d)
 s=m.d===200?8:10
