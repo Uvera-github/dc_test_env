@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -27,18 +28,14 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="favicon.png" />
 
-  <title>distribution_center_dashboard</title>
+  <title>Food WMS</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
     // The value below is injected by flutter build, do not touch.
-<<<<<<< Updated upstream
-    var serviceWorkerVersion = "346921421";
-=======
-    var serviceWorkerVersion = "215957024";
->>>>>>> Stashed changes
+    var serviceWorkerVersion = "27487609";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -46,23 +43,47 @@
     window.flutterWebRenderer = "html";
   </script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZt9kwIwjE-JmYk79XXkxsvvIZCB31SVs"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZt9kwIwjE-JmYk79XXkxsvvIZCB31SVs&libraries=drawing"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZt9kwIwjE-JmYk79XXkxsvvIZCB31SVs&libraries=drawing"></script>
 </head>
+
 <body>
   <script>
-    window.addEventListener('load', function(ev) {
+    window.addEventListener('load', function (ev) {
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
           serviceWorkerVersion: serviceWorkerVersion,
         },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
+        onEntrypointLoaded: function (engineInitializer) {
+          engineInitializer.initializeEngine().then(function (appRunner) {
             appRunner.runApp();
           });
         }
       });
     });
   </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.0/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyBHWEG4f3eh3qyOQJPv6umxFOVLmii9k4s",
+      authDomain: "distribution-center-5521e.firebaseapp.com",
+      projectId: "distribution-center-5521e",
+      storageBucket: "distribution-center-5521e.appspot.com",
+      messagingSenderId: "322162728330",
+      appId: "1:322162728330:web:709daf0ef3cc4e0d2a7c73",
+      measurementId: "G-JS0DK01LD2"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
 </body>
+
 </html>
