@@ -1,0 +1,111 @@
+[
+    {
+        "id": 1252,
+        "shape": "medium",
+        "plateNumber": "Truck No. 4",
+        "createdAt": "2024-03-03T16:57:07.960Z",
+        "driverName": "Samy Mohamed",
+        "orgId": 1,
+        "orgnizationName": "Naqwat Alnanaa",
+        "truck_status": "garaged",
+        "destinations": [
+            {
+                "name": "new destination",
+                "address": "Carrefour Riyadh Park, Riyadh Saudi Arabia",
+                "lat": 24.7578002,
+                "lang": 46.62880759999999
+            }
+        ]
+    },
+    {
+        "id": 1249,
+        "shape": "small",
+        "plateNumber": "Truck No. 1",
+        "createdAt": "2024-03-03T16:24:20.142Z",
+        "driverName": "Ahmed Galal",
+        "orgId": 1,
+        "orgnizationName": "Naqwat Alnanaa",
+        "truck_status": "on-way",
+        "destinations": [
+            {
+                "name": "new destination",
+                "address": "Carrefour Riyadh Park, Riyadh Saudi Arabia",
+                "lat": 24.7578002,
+                "lang": 46.62880759999999
+            }
+        ]
+    },
+    {
+        "id": 1251,
+        "shape": "medium",
+        "plateNumber": "Truck No 3",
+        "createdAt": "2024-03-03T16:26:18.463Z",
+        "driverName": null,
+        "orgId": 1,
+        "orgnizationName": "Naqwat Alnanaa",
+        "truck_status": "loaded",
+        "destinations": [
+            {
+                "name": "new destination",
+                "address": "Carrefour Khurais, Khurais Road, Ar Rawdah, Riyadh Saudi Arabia",
+                "lat": 24.7237728,
+                "lang": 46.7751549
+            }
+        ]
+    },
+    {
+        "id": 1250,
+        "shape": "medium",
+        "plateNumber": "Truck No. 2",
+        "createdAt": "2024-03-03T16:25:39.757Z",
+        "driverName": "Mohamed Amr",
+        "orgId": 1,
+        "orgnizationName": "Naqwat Alnanaa",
+        "truck_status": "garaged",
+        "destinations": [
+            {
+                "name": "new destination",
+                "address": "Murabba Historical Palace, Riyadh Saudi Arabia",
+                "lat": 24.6465017,
+                "lang": 46.7093148
+            }
+        ]
+    },
+    {
+        "id": 1250,
+        "shape": "medium",
+        "plateNumber": "Truck No. 290",
+        "createdAt": "2024-03-03T16:25:39.757Z",
+        "driverName": "Amr",
+        "orgId": 1,
+        "orgnizationName": "Naqwat Alnanaa",
+        "truck_status": "arrived",
+        "destinations": [
+            {
+                "name": "new destination",
+                "address": "Murabba Historical Palace, Riyadh Saudi Arabia",
+                "lat": 24.6465017,
+                "lang": 46.7093148
+            }
+        ]
+    }
+    ,
+    {
+        "id": 1250,
+        "shape": "medium",
+        "plateNumber": "Truck No. 8923",
+        "createdAt": "2024-03-03T16:25:39.757Z",
+        "driverName": "Test Driver",
+        "orgId": 1,
+        "orgnizationName": "Naqwat Alnanaa",
+        "truck_status": "left-destination",
+        "destinations": [
+            {
+                "name": "new destination",
+                "address": "Murabba Historical Palace, Riyadh Saudi Arabia",
+                "lat": 24.6465017,
+                "lang": 46.7093148
+            }
+        ]
+    }
+]

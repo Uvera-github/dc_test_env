@@ -1,0 +1,56 @@
+{
+    "truckId": 1249,
+    "plateNumber": "Truck No. 1",
+    "destination": {
+        "name": "new destination",
+        "address": "Carrefour Riyadh Park, Riyadh Saudi Arabia",
+        "lat": 24.7578002,
+        "lang": 46.62880759999999
+    },
+    "bags": [
+        {
+            "id": 19,
+            "foodName": "Rosemary",
+            "foodNameAr": "اكليل الجبل",
+            "creationDate": "2024-03-03T15:16:48.220Z",
+            "tagId": "US20070180009A1",
+            "weight": "3.5",
+            "humidity": "300",
+            "temperature": "30",
+            "status": "out-of-stock",
+            "expiryDate": "2024-03-29T15:12:28.061Z",
+            "image": "https://dc-food-images.s3.us-east-2.amazonaws.com/f9545a4e-e15b-4c9e-a105-c3f0bf303fbc.jpg",
+            "icon": "https://dc-food-images.s3.us-east-2.amazonaws.com/e3f4d60f-a919-458f-b00f-8b7a10874e98.jpg"
+        },
+        {
+            "id": 20,
+            "foodName": "Parsley",
+            "foodNameAr": "بقدونس",
+            "creationDate": "2024-03-03T15:18:42.255Z",
+            "tagId": "US20070180009B1",
+            "weight": "4.5",
+            "humidity": "320",
+            "temperature": "29",
+            "status": "out-of-stock",
+            "expiryDate": "2024-03-30T15:12:28.061Z",
+            "image": "https://dc-food-images.s3.us-east-2.amazonaws.com/f85020d1-9512-4f0a-a54e-ecf83136a80d.jpg",
+            "icon": "https://dc-food-images.s3.us-east-2.amazonaws.com/cda98bda-458a-4652-813c-07ff02bdc058.jpg"
+        }
+    ],
+    "status": "shipped",
+    "createdAt": "2024-03-03T16:39:06.208Z",
+    "updatedAt": "2024-03-03T16:46:34.722Z",
+    "metrics": {
+        "id": 3134,
+        "truckId": 1249,
+        "timestamptz": "2024-03-03T16:49:53.722Z",
+        "lat": 24.458313297683546,
+        "lang": 39.5976868500307,
+        "humidity": "90",
+        "temperature": "40",
+        "vibration": "500",
+        "pressure": "1000",
+        "speed": "100",
+        "bettaryLevel": "50"
+    }
+}
