@@ -23,7 +23,7 @@
         "humidity": "390",
         "temperature": "32",
         "image": "https://dc-food-images.s3.us-east-2.amazonaws.com/a661fefd-dd23-4e0c-a770-9b1b393f9c08.jpg",
-        "status": "rejected",
+        "status": "pending",
         "expiryDate": "2024-04-30T15:12:28.061Z",
         "icon": "https://dc-food-images.s3.us-east-2.amazonaws.com/92c6f6fc-9e86-44ea-8532-cdd15ab96afa.jpg"
     },
@@ -107,7 +107,7 @@
         "humidity": "390",
         "temperature": "32",
         "image": "https://dc-food-images.s3.us-east-2.amazonaws.com/2a837081-6b6e-4aef-9942-9f1d65c1b9f0.jpg",
-        "status": "ready-to-ship",
+        "status": "in-stock",
         "expiryDate": "2024-04-30T15:12:28.061Z",
         "icon": "https://dc-food-images.s3.us-east-2.amazonaws.com/700c68b4-8ba0-407c-a006-0297c87cb3dd.jpg"
     },
@@ -124,5 +124,19 @@
         "status": "ready-to-ship",
         "expiryDate": "2024-04-30T15:12:28.061Z",
         "icon": "https://dc-food-images.s3.us-east-2.amazonaws.com/f00a77fc-aeae-479a-8ae9-423e4a37dbc9.jpg"
+    },
+    {
+        "id": 30,
+        "foodName": "Tomato",
+        "foodNameAr": "طماطم",
+        "creationDate": "2024-03-24T05:11:07.135Z",
+        "tagId": "555645524100000000000064",
+        "weight": "1.08752",
+        "humidity": "30",
+        "temperature": "25.53",
+        "image": "https://dc-food-images.s3.us-east-2.amazonaws.com/aef67913-e0d6-450e-a652-3cfd5ec5a493.jpg",
+        "status": "delivered",
+        "expiryDate": "2024-04-23T05:11:06.227Z",
+        "icon": "https://dc-food-images.s3.us-east-2.amazonaws.com/7188cb8e-95a3-4ebe-9680-44e3d461d43e.jpg"
     }
 ]
