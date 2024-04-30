@@ -24,7 +24,6 @@
         "createdAt": "2024-03-03T16:24:20.142Z",
         "driverName": "Ahmed Galal",
         "orgId": 1,
-        "arrivalDate":"2024-04-09T15:16:48.220Z",
         "orgnizationName": "Naqwat Alnanaa",
         "truck_status": "on-way",
         "destinations": [
@@ -41,7 +40,7 @@
         "shape": "medium",
         "plateNumber": "Truck No 3",
         "createdAt": "2024-03-03T16:26:18.463Z",
-        "driverName": "Adel Hassan",
+        "driverName": null,
         "orgId": 1,
         "orgnizationName": "Naqwat Alnanaa",
         "truck_status": "loaded",
@@ -63,43 +62,6 @@
         "orgId": 1,
         "orgnizationName": "Naqwat Alnanaa",
         "truck_status": "garaged",
-        "destinations": [
-            {
-                "name": "new destination",
-                "address": "Murabba Historical Palace, Riyadh Saudi Arabia",
-                "lat": 24.6465017,
-                "lang": 46.7093148
-            }
-        ]
-    },
-    {
-        "id": 1250,
-        "shape": "medium",
-        "plateNumber": "Truck No. 5",
-        "createdAt": "2024-03-03T16:25:39.757Z",
-        "driverName": "Omar Ayoub",
-        "orgId": 1,
-        "orgnizationName": "Naqwat Alnanaa",
-        "truck_status": "arrived",
-        "destinations": [
-            {
-                "name": "new destination",
-                "address": "Murabba Historical Palace, Riyadh Saudi Arabia",
-                "lat": 24.6465017,
-                "lang": 46.7093148
-            }
-        ]
-    }
-    ,
-    {
-        "id": 1250,
-        "shape": "medium",
-        "plateNumber": "Truck No. 6",
-        "createdAt": "2024-03-03T16:25:39.757Z",
-        "driverName": "Mohsen Mahmoud",
-        "orgId": 1,
-        "orgnizationName": "Naqwat Alnanaa",
-        "truck_status": "left-destination",
         "destinations": [
             {
                 "name": "new destination",
