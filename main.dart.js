@@ -65850,7 +65850,7 @@ s=q}while(true)switch(s){case 0:q=3
 o.E(new A.b8V(o))
 k=t.z
 s=6
-return A.z(o.d.h6(0,"https://dev-api.foodline.uvera.co/devices/sensors",A.ef(A.J(["Content-type","application/json","Accept","application/json","Authorization","Bearer "+$.bb().a],t.N,k),new A.b8W()),k),$async$qr)
+return A.z(o.d.h6(0,"https://dev-api.foodline.uvera.co/devices/paired-sensors",A.ef(A.J(["Content-type","application/json","Accept","application/json","Authorization","Bearer "+$.bb().a],t.N,k),new A.b8W()),k),$async$qr)
 case 6:n=b
 s=n.c===200||n.c===201?7:9
 break
