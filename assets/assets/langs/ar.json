@@ -6,12 +6,8 @@
         "analytics": "تحليل البيانات",
         "settings": "الإعدادات",
         "export": "تحميل",
-<<<<<<< Updated upstream
-        "dashboard":"بيانات",
-=======
         "bag_monitoring":"المنتجات",
         "dashboard":"لوحة معلومات",
->>>>>>> Stashed changes
         "call": "الاتصال",
         "quickSearchItem": "البحث السريع باسم المنتج",
         "quickSearch": "البحث",
