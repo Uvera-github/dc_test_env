@@ -6,12 +6,12 @@
         "analytics": "Analytics",
         "settings": "Settings",
         "call": "Contact",
-        "bag_monitoring":"Bag Monitoring",
+        "bag_monitoring":"Package Monitoring",
 
         "dashboard":"Dashboard",
 
         "export": "Export",
-        "quickSearchItem": "Quick search by item",
+        "quickSearchItem": "Quick search by SKU",
         "quickSearch": "Search",
         "quickSearchstatus": "Quick search by plate number",
         "help": "Help & Support",
@@ -36,7 +36,7 @@
     },
     "stock": {
         "stockTitle": "Stock Monitoring",
-        "item": "Item",
+        "item": "SKU",
         "status": "Status",
         "weight": "Weight",
         "recivingDate": "Reciving Date / Time",
@@ -62,7 +62,7 @@
     },
     "truckDetails": {
         "title": "Truck Details",
-        "item": "Item",
+        "item": "SKU",
         "weight": "Weight",
         "date": "Scale Date / Time",
         "expDate": "Expiration Date / Time",
@@ -73,11 +73,11 @@
         "currentShipment": "Current Shipment",
         "shippedFrom":"Shipped From",
         "shippedTo":"Shipped To",
-        "emptyTruck":"This truck has no bags"
+        "emptyTruck":"This truck has no packages"
     },
     "routeHistory": {
         "title": "Route History",
-        "item": "Item",
+        "item": "SKU",
         "weight": "Weight",
         "date": "Date",
         "destination": "Destination",
