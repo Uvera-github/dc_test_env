@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!--
+
+<head>
+  <!--
     If you are serving your web app in a path other than the root, change the
     href value below to reflect the base path you are serving from.
 
@@ -14,120 +15,88 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-    <base href="/dc_test_env/" />
+  <base href="/dc_test_env/">
 
-    <meta charset="UTF-8" />
-    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
-    <meta name="description" content="A new Flutter project." />
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
 
-    <!-- iOS meta tags & icons -->
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta
-      name="apple-mobile-web-app-title"
-      content="distribution_center_dashboard"
-    />
-    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="distribution_center_dashboard">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="favicon.png" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
 
-    <title>Food WMS</title>
-    <link rel="manifest" href="manifest.json" />
+  <title>Food WMS</title>
+  <link rel="manifest" href="manifest.json">
 
-    <script>
-      // The value below is injected by flutter build, do not touch.
-      const serviceWorkerVersion = "2224567068";
-    </script>
-    <!-- This script adds the flutter initialization JS code -->
-    <script src="flutter.js" defer></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeNTU4-9EhtjJxKhKWRXGznubJHIFKMc0"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeNTU4-9EhtjJxKhKWRXGznubJHIFKMc0&libraries=drawing"></script>
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    const serviceWorkerVersion = "3760290159";
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZt9kwIwjE-JmYk79XXkxsvvIZCB31SVs"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZt9kwIwjE-JmYk79XXkxsvvIZCB31SVs&libraries=drawing"></script>
     <script type="text/javascript">
-      (function (w, d, u) {
-        w.$productFruits = w.$productFruits || [];
-        w.productFruits = w.productFruits || {};
-        w.productFruits.scrV = "2";
-        let a = d.getElementsByTagName("head")[0];
-        let r = d.createElement("script");
-        r.async = 1;
-        r.src = u;
-        a.appendChild(r);
-      })(window, document, "https://app.productfruits.com/static/script.js");
-    </script>
-    <script type="text/javascript">
-      $productFruits.push([
-        "init",
-        "UbK3Ml3Vks4AjOLn",
-        "en",
-        { username: "User" },
-      ]);
-    </script>
-
-    <script>
-      window.addEventListener("beforeinstallprompt", function (e) {
-        e.preventDefault();
-        return false;
-      });
-    </script>
-
-    <!-- <script>
+      (function(w,d,u){
+          w.$productFruits=w.$productFruits||[];
+          w.productFruits=w.productFruits||{};w.productFruits.scrV='2';
+          let a=d.getElementsByTagName('head')[0];let r=d.createElement('script');r.async=1;r.src=u;a.appendChild(r);
+      })(window,document,'https://app.productfruits.com/static/script.js');
+  </script>
+  <script type="text/javascript">
+    $productFruits.push(['init', 'UbK3Ml3Vks4AjOLn', 'en', { username: 'User' }]);
+  </script>
+  <!-- <script>
     !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="GI31vHy7wCU05fUbqA5nEt6bGFFsH1ZP";;analytics.SNIPPET_VERSION="5.2.0";
     analytics.load("GI31vHy7wCU05fUbqA5nEt6bGFFsH1ZP");
     analytics.page();
     }}();
   </script> -->
-    <!-- <script>  (function(g,u,i,d,e,s){g[e]=g[e]||[];var f=u.getElementsByTagName(i)[0];var k=u.createElement(i);k.async=true;k.src='https://static.userguiding.com/media/user-guiding-'+s+'-embedded.js';f.parentNode.insertBefore(k,f);if(g[d])return;var ug=g[d]={q:[]};ug.c=function(n){return function(){ug.q.push([n,arguments])};};var m=['previewGuide','finishPreview','track','identify','hideChecklist','launchChecklist'];for(var j=0;j<m.length;j+=1){ug[m[j]]=ug.c(m[j]);}})(window,document,'script','userGuiding','userGuidingLayer','MFT83428MDPID');
-  </script> -->
   </head>
 
-  <body>
-    <script>
-      window.addEventListener("load", function (ev) {
-        // Download main.dart.js
-        _flutter.loader.loadEntrypoint({
-          serviceWorker: {
-            serviceWorkerVersion: serviceWorkerVersion,
-          },
-          onEntrypointLoaded: function (engineInitializer) {
-            engineInitializer.initializeEngine().then(function (appRunner) {
-              appRunner.runApp();
-            });
-          },
-        });
-      });
-    </script>
-    <script src="main.dart.js" type="application/javascript"></script>
-    <script type="module">
-      // Import the functions you need from the SDKs you need
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.0/firebase-app.js";
-      // TODO: Add SDKs for Firebase products that you want to use
-      // https://firebase.google.com/docs/web/setup#available-libraries
-
-      // Your web app's Firebase configuration
-      const firebaseConfig = {
-        apiKey: "AIzaSyDbiHObHPa34wqR2VGiS7j7KY9VimjHSMM",
-        authDomain: "dc-fcm-production.firebaseapp.com",
-        projectId: "dc-fcm-production",
-        storageBucket: "dc-fcm-production.firebasestorage.app",
-        messagingSenderId: "185320435029",
-        appId: "1:185320435029:web:94886cf8e8c2dac8e453dc",
-        measurementId: "G-95Y8LHVCB1",
-      };
-      // Initialize Firebase
-      const app = initializeApp(firebaseConfig);
-    </script>
-    <script>
-      if ("serviceWorker" in navigator) {
-        navigator.serviceWorker
-          .register("/firebase-messaging-sw.js")
-          .then((registration) => {
-            console.log("Service Worker registered:", registration);
-          })
-          .catch((error) => {
-            console.log("Service Worker registration failed:", error);
+<body>
+  <script>
+    window.addEventListener('load', function (ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function (engineInitializer) {
+          engineInitializer.initializeEngine().then(function (appRunner) {
+            appRunner.runApp();
           });
-      }
-    </script>
-  </body>
+        }
+      });
+    });
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.0/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyBHWEG4f3eh3qyOQJPv6umxFOVLmii9k4s",
+      authDomain: "distribution-center-5521e.firebaseapp.com",
+      projectId: "distribution-center-5521e",
+      storageBucket: "distribution-center-5521e.appspot.com",
+      messagingSenderId: "322162728330",
+      appId: "1:322162728330:web:709daf0ef3cc4e0d2a7c73",
+      measurementId: "G-JS0DK01LD2"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
+</body>
+
 </html>
